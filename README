@@ -1,0 +1,76 @@
+####################################
+Kalbum 0.8.0 - Last Update: 05.03.03
+####################################
+
+Introduction
+============
+
+Kalbum is an application that allows you to create albums from a collection of images.
+
+Main features:
+    - Easy to use thumbnail interface
+    - Export the albums as a complete web site, or .war web archive
+    - Easy to edit html templates for creating a customized web site
+    - Edit multiple images at once
+    - Versatile gui
+    - Original images remain unchanged
+    - Drag'n'Drop
+
+There's no documentation at the moment, but the program should be straightforward enough to use:
+Add images from the interface or drag image files from a file manager. Edit them to describe them,
+save the album then export to an html album as necessary.
+
+Requirements:
+KDE >= 3.0.1
+QT  >= 3.0.3
+
+
+Changes from version 0.7.4:
+===========================
+
+- added an option to export html as a single .war file
+- added an option to include link to original images from generated html
+- addded command line option to add images to a new album
+- saves export dialog settings within an album
+- vast speed increase for editing image details without the preview window being open
+- clicking on the image's url now produces a requester for changing the image's location
+- increased the number of thumbnails in html output to nine
+- all fields within the details window can now modify all selected images
+- added total and selected information to the status bar
+- added a time field for the images
+- re-coded a more versatile gui (dock widgets)
+- changed html file extensions from .htm to .html
+- added more image formats to file requesters
+- added French translation by (for 0.7.4) Fabrice Belon
+- added Spanish translation (for 0.8.0) by Miguel Revilla Rodríguez
+
+
+Notes on this release
+=====================
+
+Editing multiple images at once is fairly straightforward. Only edited fields will be applied to the
+selected images, with only the url working differently to single image mode. Changing the url with
+more than one image selected changes the source directory for all selected images. Useful when a 
+source dirctory has moved or changed.
+
+The default html output has changed to use 9 thumbnails instead of the previous 6, but it's a bit 
+tight and can cause problems with longer image titles. If you'd prefer to change back to 6 thumbnails, 
+you need to edit two files:
+
+	Navigate to kalbum's data directory. Mandrake 9 uses an install prefix of '/usr', 
+	so the data directory is '/usr/share/apps/kalbum'. From here the html data is 
+	'data/kalbum_html/folder' and the two files we need are gen_src.html and thm_src.html. 
+	Open gen_src.html, this is the template for the album information page,
+	<!-- {Kalbum Thumbs=0009} --> needs to be changed to <!-- {Kalbum Thumbs=0006} -->'. 
+	Finally, open thm_src.html (the template for the thumbnails page) and remove the last 
+	two rows of the table containing the thumbnails.
+
+	
+Contact
+=======
+
+If you have any problems, or if you've any ideas or can offer any help, don't hesitate in getting in touch...
+
+<kalbum@paldandy.com>
+http://www.paldandy.com/kalbum
+This program is distributed under the terms of the GNU GENERAL PUBLIC LICENSE v2.

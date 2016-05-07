@@ -1,0 +1,756 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2003-03-05 16:02+0100\n"
+"PO-Revision-Date: 2002-11-20 14:06+0100\n"
+"Last-Translator: BELON Fabrice <fabrice.belon@laposte.net>\n"
+"Language-Team: Français <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: kalbumnoimagedlg.cpp:37 rc.cpp:45
+msgid "Unable to find image"
+msgstr "Impossible de trouver l'image"
+
+#: kalbumnoimagedlg.cpp:43 rc.cpp:46
+msgid "Please give an alternative location:"
+msgstr "Veuillez donner un chemin alternatif:"
+
+#: kalbumnoimagedlg.cpp:53 albuminfodlg.cpp:204 photodetailsdlg.cpp:320
+#: rc.cpp:25 rc.cpp:47 rc.cpp:61
+msgid "&Accept"
+msgstr "&Accepter"
+
+#: kalbumnoimagedlg.cpp:54 rc.cpp:48
+msgid "Accept new image location"
+msgstr "Accepter le nouveau chemin de l'image"
+
+#: kalbumnoimagedlg.cpp:59 rc.cpp:49
+msgid "&Ignore"
+msgstr "&Ignorer"
+
+#: kalbumnoimagedlg.cpp:60 rc.cpp:50
+msgid "Proceed withour finding image"
+msgstr "Procéder sans trouver l'image"
+
+#: kalbumnoimagedlg.cpp:65 rc.cpp:51
+msgid "Set new location for image"
+msgstr "Donner un nouveau chemin pour l'image"
+
+#: kalbumnoimagedlg.cpp:75 rc.cpp:52
+msgid "Unable to find:"
+msgstr "Impossible de trouver:"
+
+#: kalbumnoimagedlg.cpp:82 rc.cpp:53
+msgid "TextLabel1"
+msgstr "TextLabel1"
+
+#: albuminfo.moc.cpp:34 albuminfo.moc.cpp:42
+#, fuzzy
+msgid "AlbumInfo"
+msgstr "Information de l'album"
+
+#: albuminfodlg.cpp:66 photodetailsdlg.cpp:282 previewimagedlg.cpp:31 rc.cpp:7
+#: rc.cpp:54 rc.cpp:79
+msgid "Form1"
+msgstr ""
+
+#: albuminfodlg.cpp:75 rc.cpp:8
+msgid "Web Address"
+msgstr "Adresse Web"
+
+#: albuminfodlg.cpp:80 rc.cpp:9
+msgid "http://"
+msgstr "http://"
+
+#: albuminfodlg.cpp:82 rc.cpp:10
+msgid "Where to find the album"
+msgstr "Où trouver l'album"
+
+#: albuminfodlg.cpp:90 rc.cpp:11
+msgid "Description"
+msgstr "Description"
+
+#: albuminfodlg.cpp:102 rc.cpp:12
+msgid "Author:"
+msgstr "Auteur:"
+
+#: albuminfodlg.cpp:108 rc.cpp:13
+msgid "Author's name"
+msgstr "Nom de l'auteur:"
+
+#: albuminfodlg.cpp:117 rc.cpp:14
+msgid "Ignore Dates:"
+msgstr "Dates ignorées"
+
+#: albuminfodlg.cpp:123 rc.cpp:16
+msgid "If selected, dates are ignored and not exported"
+msgstr "Si sélectionnées, les dates sont ignorées et pas exportées"
+
+#: albuminfodlg.cpp:134 rc.cpp:17
+msgid "email:"
+msgstr "email:"
+
+#: albuminfodlg.cpp:140 rc.cpp:18
+msgid "Contact email for author"
+msgstr "Email de contact de l'auteur"
+
+#: albuminfodlg.cpp:149 rc.cpp:19
+msgid "Album Name:"
+msgstr "Nom de l'album:"
+
+#: albuminfodlg.cpp:155 rc.cpp:20
+msgid "Name of current album"
+msgstr "Nom de l'album courrant"
+
+#: albuminfodlg.cpp:164 rc.cpp:21
+msgid "Start Date:"
+msgstr "Date de début"
+
+#: albuminfodlg.cpp:170 rc.cpp:22
+msgid "Date album commences"
+msgstr "Date de commencement de l'album"
+
+#: albuminfodlg.cpp:181 rc.cpp:23
+msgid "End Date:"
+msgstr "Date de fin:"
+
+#: albuminfodlg.cpp:187 rc.cpp:24
+msgid "Date album finishes"
+msgstr "Date de finnission de l'album"
+
+#: kalbumview.cpp:117
+msgid "Move Left"
+msgstr "Déplacer vers la gauche"
+
+#: kalbumview.cpp:118
+msgid "Move Right"
+msgstr "Déplacer vers la droite"
+
+#: kalbumview.cpp:573
+msgid "Do you want to overwrite the existing file?"
+msgstr "Voulez-vous vraiment écraser le fichier existant?"
+
+#: kalbumview.cpp:574 kalbumview.cpp:737
+msgid "Overwrite File"
+msgstr "Réecriture du fichier"
+
+#: kalbumview.cpp:736
+#, fuzzy
+msgid "Do you want to overwrite the existing .war file?"
+msgstr "Voulez-vous vraiment écraser le fichier existant?"
+
+#: kalbumview.cpp:794 kalbumview.cpp:828
+#, fuzzy
+msgid "Creating WAR..."
+msgstr "Création du nouveau document..."
+
+#: kalbumview.cpp:2041
+#, fuzzy
+msgid "Inserting images..."
+msgstr "Insertion de l'album..."
+
+#: kalbumview.cpp:2124 kalbum.cpp:205 kalbum.cpp:321 kalbum.cpp:431
+#: kalbum.cpp:446 kalbum.cpp:467 kalbum.cpp:482 kalbum.cpp:509 kalbum.cpp:518
+#: kalbum.cpp:538 kalbum.cpp:546 kalbum.cpp:575 kalbum.cpp:592 kalbum.cpp:613
+#: kalbum.cpp:624 kalbum.cpp:648 kalbum.cpp:656 kalbum.cpp:664 kalbum.cpp:672
+#: kalbum.cpp:686 kalbum.cpp:700 kalbum.cpp:800 kalbum.cpp:808 kalbum.cpp:816
+#: kalbum.cpp:824
+msgid "Ready."
+msgstr "Prét."
+
+#: photodetailsdlg.cpp:290 rc.cpp:56
+msgid "Accept Changes & Edit Previous Image"
+msgstr "Accepter les changements et editer l'images précédentes"
+
+#: photodetailsdlg.cpp:296 rc.cpp:58
+msgid "Accept Changes & Edit Next Image"
+msgstr "Accepter les changements et editer l'images suivantes"
+
+#: photodetailsdlg.cpp:301 rc.cpp:59
+msgid "Title:"
+msgstr "Titre:"
+
+#: photodetailsdlg.cpp:310 rc.cpp:60
+msgid "Title for this photo"
+msgstr "Titre de cette photo"
+
+#: photodetailsdlg.cpp:346 rc.cpp:63
+#, fuzzy
+msgid "Comments for your image:"
+msgstr "Ajouter des commentaires pour la photo ci-dessous:"
+
+#: photodetailsdlg.cpp:376 rc.cpp:64
+#, fuzzy
+msgid "Rotate:"
+msgstr "Date:"
+
+#: photodetailsdlg.cpp:383 rc.cpp:65
+msgid "90"
+msgstr ""
+
+#: photodetailsdlg.cpp:388 rc.cpp:66
+msgid "180"
+msgstr ""
+
+#: photodetailsdlg.cpp:393 rc.cpp:67
+msgid "270"
+msgstr ""
+
+#: photodetailsdlg.cpp:403 rc.cpp:68
+#, fuzzy
+msgid "Time:"
+msgstr "Titre:"
+
+#: photodetailsdlg.cpp:410 rc.cpp:69
+#, fuzzy
+msgid "Time of the photo"
+msgstr "Date de la Photo"
+
+#: photodetailsdlg.cpp:416 rc.cpp:71
+#, fuzzy
+msgid "If selected, the photo's date is ignored"
+msgstr ""
+"Si sélectionnée, la date de la photo est ignoré qunad l'album est exporté"
+
+#: photodetailsdlg.cpp:421 photodetailsdlg.cpp:450 rc.cpp:72 rc.cpp:77
+#, fuzzy
+msgid "Ignore"
+msgstr "&Ignorer"
+
+#: photodetailsdlg.cpp:431 rc.cpp:73
+msgid "Date:"
+msgstr "Date:"
+
+#: photodetailsdlg.cpp:439 rc.cpp:74
+msgid "Date of the photo"
+msgstr "Date de la Photo"
+
+#: photodetailsdlg.cpp:445 rc.cpp:76
+msgid "If selected, the photo's date is ignored when album is exported"
+msgstr ""
+"Si sélectionnée, la date de la photo est ignoré qunad l'album est exporté"
+
+#: photodetailsdlg.cpp:477 rc.cpp:78
+msgid "Location:"
+msgstr ""
+
+#: exportweb.moc.cpp:34 exportweb.moc.cpp:42
+msgid "ExportWeb"
+msgstr "ExportWeb"
+
+#: kalbumiconview.moc.cpp:34 kalbumiconview.moc.cpp:42
+msgid "KalbumIconView"
+msgstr "KalbumIconView"
+
+#: photodetails.cpp:295
+msgid "Change destination directory"
+msgstr ""
+
+#: photodetails.cpp:344 kalbum.cpp:490
+#, fuzzy
+msgid ""
+"*.jpeg *.jpg *.gif *.xpm *.ppm *.pgm *.pnm *.png *.bmp *.tiff|Pictures\n"
+"*|All files"
+msgstr ""
+"*.png *.jpg *.jpeg *.bmp *.PNG *.JPG *.JPEG *.BMP|Images\n"
+"*|Tous les fichiers"
+
+#: photodetails.cpp:344
+#, fuzzy
+msgid "Locate Photo..."
+msgstr "Ouverture d'une Photo"
+
+#: photodetails.cpp:361
+msgid "Locate Directory For Photos..."
+msgstr ""
+
+#: photodetails.cpp:462
+msgid "No Images Selected"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "BELON Fabrice"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "fabrice.belon@laposte.net"
+
+#: kalbumview.moc.cpp:34 kalbumview.moc.cpp:42
+msgid "KalbumView"
+msgstr "KalbumView"
+
+#: main.cpp:25
+#, fuzzy
+msgid ""
+"Kalbum is an application that allows you to\n"
+"create albums from a collection of images"
+msgstr ""
+"Kalbum est une application qui vous permets de\n"
+"créer un album à partier d'une collection d'images"
+
+#: main.cpp:31
+msgid "file to open"
+msgstr "Fichier à ouvrir"
+
+#: main.cpp:32
+msgid "Optional image filenames to add to a new album"
+msgstr ""
+
+#: main.cpp:40
+msgid "Kalbum"
+msgstr "Kalbum"
+
+#: kalbum.moc.cpp:34 kalbum.moc.cpp:42
+msgid "KalbumApp"
+msgstr "KalbumApp"
+
+#: kalbumdoc.cpp:121
+msgid ""
+"The current file has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"Le fichier en cours a été modifié.\n"
+"Voulez-vous le sauvegarder?"
+
+#: photodetails.moc.cpp:34 photodetails.moc.cpp:42
+msgid "PhotoDetails"
+msgstr ""
+
+#: exportwebdlg.cpp:39 rc.cpp:27
+msgid "Export Web Album"
+msgstr "Exporter l'album Web"
+
+#: exportwebdlg.cpp:43 rc.cpp:28
+msgid "Destination for created Web Album"
+msgstr "Destination de création de l'album Web"
+
+#: exportwebdlg.cpp:73 rc.cpp:29
+msgid "Hue"
+msgstr "Couleur"
+
+#: exportwebdlg.cpp:79 rc.cpp:30
+msgid "Change colour of Web Page"
+msgstr "Couleur de la page web"
+
+#: exportwebdlg.cpp:86 rc.cpp:31
+msgid "Saturation"
+msgstr "Saturation"
+
+#: exportwebdlg.cpp:112 rc.cpp:34
+msgid "Destination:"
+msgstr "Destination:"
+
+#: exportwebdlg.cpp:121 rc.cpp:35
+msgid "&Create!"
+msgstr "&Créer!"
+
+#: exportwebdlg.cpp:122 rc.cpp:36
+msgid "Create Web Album"
+msgstr "Créer l'album Web"
+
+#: exportwebdlg.cpp:126 rc.cpp:37
+msgid "C&ancel"
+msgstr "&Annuler"
+
+#: exportwebdlg.cpp:127 rc.cpp:38
+msgid "Cancel Creation"
+msgstr "Annulation de la création"
+
+#: exportwebdlg.cpp:135 rc.cpp:39
+msgid "Include Original Image(s)"
+msgstr ""
+
+#: exportwebdlg.cpp:140 rc.cpp:41
+msgid "Copies and links original images"
+msgstr ""
+
+#: exportwebdlg.cpp:146 rc.cpp:42
+msgid "Archive Web Site"
+msgstr ""
+
+#: exportwebdlg.cpp:151 rc.cpp:44
+msgid "Creates a single WAR file from the album"
+msgstr ""
+
+#: rc.cpp:2
+msgid "&Export As"
+msgstr "&Exporter vers"
+
+#: rc.cpp:5
+msgid "&Sort"
+msgstr "&Trier"
+
+#: kalbumnoimage.moc.cpp:34 kalbumnoimage.moc.cpp:42
+msgid "KalbumNoImage"
+msgstr "KalbumNoImage"
+
+#: previewimage.moc.cpp:34 previewimage.moc.cpp:42
+msgid "PreviewImage"
+msgstr ""
+
+#: kalbum.cpp:102
+msgid "New &Window"
+msgstr "Nouvelle &Fenêtre"
+
+#: kalbum.cpp:119
+#, fuzzy
+msgid "Insert &Photo(s)"
+msgstr "Insérrer une &Photo"
+
+#: kalbum.cpp:121
+msgid "&Web Page Album"
+msgstr "Page de l'album &Web"
+
+#: kalbum.cpp:123
+#, fuzzy
+msgid "Move Photo(s) &Right"
+msgstr "Déplacer l'image vers la &droite"
+
+#: kalbum.cpp:125
+#, fuzzy
+msgid "Move Photo(s) &Left"
+msgstr "Déplacer l'image vers la &gauche"
+
+#: kalbum.cpp:127
+#, fuzzy
+msgid "Ascending by &Date"
+msgstr "Trier les titres par ordre croiss&ant"
+
+#: kalbum.cpp:129
+#, fuzzy
+msgid "Descending by Date"
+msgstr "Trier les titres par ordre &décroissant"
+
+#: kalbum.cpp:131
+#, fuzzy
+msgid "Ascending by &Title"
+msgstr "Trier les titres par ordre croiss&ant"
+
+#: kalbum.cpp:133
+#, fuzzy
+msgid "&Descending by Title"
+msgstr "Trier les titres par ordre &décroissant"
+
+#: kalbum.cpp:135
+#, fuzzy
+msgid "Show Album Info"
+msgstr "Information de l'album"
+
+#: kalbum.cpp:137
+msgid "Show Image Details"
+msgstr ""
+
+#: kalbum.cpp:139
+msgid "Show Preview Image"
+msgstr ""
+
+#: kalbum.cpp:141
+msgid "Show &Thumbnails"
+msgstr ""
+
+#: kalbum.cpp:143
+msgid "&Default"
+msgstr ""
+
+#: kalbum.cpp:151
+msgid "Opens a new application window"
+msgstr "Ouvrir une nouvelle fenêtre"
+
+#: kalbum.cpp:152
+msgid "Creates a new document"
+msgstr "Créer un nouveau document"
+
+#: kalbum.cpp:153
+msgid "Opens an existing document"
+msgstr "Ouvrir un document existant"
+
+#: kalbum.cpp:154
+msgid "Opens a recently used file"
+msgstr "Ouvrir un document récent"
+
+#: kalbum.cpp:155
+msgid "Saves the actual document"
+msgstr "Sauvegarder le document en cours"
+
+#: kalbum.cpp:156
+msgid "Saves the actual document as..."
+msgstr "Sauvegarder sous le document en cours"
+
+#: kalbum.cpp:158
+msgid "Prints out the actual document"
+msgstr "Imprimer le document en cours"
+
+#: kalbum.cpp:159
+msgid "Quits the application"
+msgstr "Quitter l'application"
+
+#: kalbum.cpp:160
+msgid "Cuts the selected section and puts it to the clipboard"
+msgstr "Couper dans le presse papier la section sélectionnée"
+
+#: kalbum.cpp:161
+msgid "Copies the selected section to the clipboard"
+msgstr "Copier dans le presse papier la section sélectionnée"
+
+#: kalbum.cpp:162
+msgid "Pastes the clipboard contents to actual position"
+msgstr "Coller le contenu du presse papier"
+
+#: kalbum.cpp:163
+msgid "Enables/disables the toolbar"
+msgstr "Activer/désactiver la barre des tâches"
+
+#: kalbum.cpp:164
+msgid "Enables/disables the statusbar"
+msgstr "Activer/désactiver la barre de status"
+
+#: kalbum.cpp:166
+msgid "Shows/hides the Album Info view"
+msgstr ""
+
+#: kalbum.cpp:167
+msgid "Shows/hides the Image Details view"
+msgstr ""
+
+#: kalbum.cpp:168
+msgid "Shows/hides the Preview Image"
+msgstr ""
+
+#: kalbum.cpp:169
+msgid "Shows/hides the Thumbnail view"
+msgstr ""
+
+#: kalbum.cpp:170
+msgid "Restores the Windows to their default layout"
+msgstr ""
+
+#: kalbum.cpp:172
+#, fuzzy
+msgid "Inserts photo(s) into the current album"
+msgstr "Insérer une photo dans l'album en cours"
+
+#: kalbum.cpp:173
+msgid "Moves selected photo(s) right"
+msgstr "Déplacer les photos sélectionnées vers la droites"
+
+#: kalbum.cpp:174
+msgid "Moves selected photo(s) left"
+msgstr "Déplacer les photos sélectionnées vers la gauche"
+
+#: kalbum.cpp:176 kalbum.cpp:177
+#, fuzzy
+msgid "Sorts selected images by their Title"
+msgstr "Classement des photos par leurs titres..."
+
+#: kalbum.cpp:178 kalbum.cpp:179
+#, fuzzy
+msgid "Sorts selected images by their Date/Time"
+msgstr "Classement des photos par leurs titres..."
+
+#: kalbum.cpp:210 kalbum.cpp:863
+msgid "0 Images Selected"
+msgstr ""
+
+#: kalbum.cpp:215 kalbum.cpp:887
+msgid "Total: 0 Images"
+msgstr ""
+
+#: kalbum.cpp:235
+msgid "Thumbnails"
+msgstr ""
+
+#: kalbum.cpp:261
+msgid "Preview Image"
+msgstr ""
+
+#: kalbum.cpp:272
+msgid "Photo Details"
+msgstr ""
+
+#: kalbum.cpp:272
+msgid "Image Details"
+msgstr ""
+
+#: kalbum.cpp:281
+#, fuzzy
+msgid "Album Info"
+msgstr "Information de l'album"
+
+#: kalbum.cpp:314 kalbum.cpp:450 kalbum.cpp:524
+msgid "Opening file..."
+msgstr "Ouverture du fichier..."
+
+#: kalbum.cpp:426
+msgid "Opening a new application window..."
+msgstr "Ouverture d'une nouvelle fenêtre..."
+
+#: kalbum.cpp:435
+msgid "Creating new document..."
+msgstr "Création du nouveau document..."
+
+#: kalbum.cpp:457 kalbum.cpp:475
+msgid ""
+"*.kalbum |Albums\n"
+"*|All files"
+msgstr ""
+"*.kalbum |Albums\n"
+"*|Tous les fichiers"
+
+#: kalbum.cpp:457 kalbum.cpp:475
+msgid "Open File..."
+msgstr "Ouverture du fichier..."
+
+#: kalbum.cpp:472
+msgid "Inserting album..."
+msgstr "Insertion de l'album..."
+
+#: kalbum.cpp:490
+msgid "Open Photo..."
+msgstr "Ouverture d'une Photo"
+
+#: kalbum.cpp:492 kalbum.cpp:514
+#, fuzzy
+msgid "Adding Image(s)..."
+msgstr "Ajout de Photo(s)..."
+
+#: kalbum.cpp:542
+msgid "Saving file..."
+msgstr "Sauvegarde du fichier..."
+
+#: kalbum.cpp:552
+msgid "Saving file with a new filename..."
+msgstr "Sauvegarde du fichier sous un autre nom..."
+
+#: kalbum.cpp:555
+msgid "*|All files"
+msgstr "*|Tous les fichiers"
+
+#: kalbum.cpp:579
+msgid "Exporting Album as HTML..."
+msgstr "Exportation de l'album vers HTML..."
+
+#: kalbum.cpp:609
+msgid "Closing file..."
+msgstr "Fermeture du fichier..."
+
+#: kalbum.cpp:617
+msgid "Printing..."
+msgstr "Impression..."
+
+#: kalbum.cpp:628
+msgid "Exiting..."
+msgstr "Sortie..."
+
+#: kalbum.cpp:644
+msgid "Cutting selection..."
+msgstr "Selection du coupage..."
+
+#: kalbum.cpp:652
+msgid "Copying selection to clipboard..."
+msgstr "Copie de la selection vers le presse papier..."
+
+#: kalbum.cpp:660
+msgid "Inserting clipboard contents..."
+msgstr "Insertion du contenu du presse papier..."
+
+#: kalbum.cpp:668
+msgid "Editing Photo Properties..."
+msgstr "Edition des propriétés de la photo..."
+
+#: kalbum.cpp:677
+msgid "Toggling toolbar..."
+msgstr "Basculement de la Barre d'outils"
+
+#: kalbum.cpp:690
+msgid "Toggle the statusbar..."
+msgstr "Basculement de la barre de status..."
+
+#: kalbum.cpp:798 kalbum.cpp:806
+msgid "Sorting photos by date..."
+msgstr "Classement des photos par date..."
+
+#: kalbum.cpp:814 kalbum.cpp:822
+msgid "Sorting photos by their titles..."
+msgstr "Classement des photos par leurs titres..."
+
+#: kalbum.cpp:867
+msgid "%1 Images Selected"
+msgstr ""
+
+#: kalbum.cpp:872
+msgid "1 Image Selected"
+msgstr ""
+
+#: kalbum.cpp:891
+msgid "Total: %1 Images"
+msgstr ""
+
+#: kalbum.cpp:896
+msgid "Total: 1 Image"
+msgstr ""
+
+#: kalbumdoc.moc.cpp:34 kalbumdoc.moc.cpp:42
+msgid "KalbumDoc"
+msgstr "KalbumDoc"
+
+#~ msgid "Edit Photo"
+#~ msgstr "Editer l'image"
+
+#~ msgid "KalbumCreditsView"
+#~ msgstr "KalbumCreditsView"
+
+#~ msgid ""
+#~ "*.png *.jpg *.bmp |Pictures\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.png *.jpg *.bmp |Images\n"
+#~ "*|Tous les fichiers"
+
+#~ msgid "KalbumItem"
+#~ msgstr "KalbumItem"
+
+#~ msgid "Photo Information"
+#~ msgstr "Information sur la photo"
+
+#~ msgid "Accept changes made to this photo"
+#~ msgstr "Accepter les chagements de la photo"
+
+#~ msgid "Ignore changes made to this photo"
+#~ msgstr "Ignorer les changements de la photo"
+
+#~ msgid "Rotate image 90 degrees clockwise"
+#~ msgstr "Tourner l'image de 90° dans le sens d'une horloge"
+
+#~ msgid "Album &Information"
+#~ msgstr "&Infomation de l'Album"
+
+#~ msgid "Edit Photo &Properties"
+#~ msgstr "Editer les &propriétés de la photo"
+
+#~ msgid "Sort Increasing by Date"
+#~ msgstr "Trier par dates croissantes"
+
+#~ msgid "Sort Decreasing by Date"
+#~ msgstr "Trier par dates décroissantes"
+
+#~ msgid "Edits the properties for the selected photo"
+#~ msgstr "Editer les proprités de la photo en cours"
+
+#~ msgid "Sets general information for the album"
+#~ msgstr "Paramétrer les info. générales de l'album"
+
+#~ msgid "Opening photo..."
+#~ msgstr "Ouverture de la photo..."

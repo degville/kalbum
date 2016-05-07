@@ -1,0 +1,34 @@
+<!DOCTYPE webproject>
+<webproject>
+<project usePreviewPrefix="0" type="Local" previewPrefix="" name="folder" >
+<upload/>
+  <author>Graham Morrison</author>
+  <email>kalbum@paldandy.com</email>
+  <templates>/home/graham/programming/kalbum/kalbum/kalbum_html/folder//templates</templates>
+  <toolbars>/home/graham/programming/kalbum/kalbum/kalbum_html/folder//toolbars</toolbars>
+  <item url="images/" />
+  <item url="images/bg.png" />
+  <item url="images/blank.png" />
+  <item url="images/f_b.png" />
+  <item url="images/f_bot.png" />
+  <item url="images/f_l.png" />
+  <item url="images/f_lb.png" />
+  <item url="images/f_left.png" />
+  <item url="images/f_lt.png" />
+  <item url="images/f_r.png" />
+  <item url="images/f_rb.png" />
+  <item url="images/f_rt.png" />
+  <item url="images/f_t.png" />
+  <item url="images/f_top.png" />
+  <item url="images/slide01.png" />
+  <item url="images/t_ou_d.png" />
+  <item url="images/t_ou_u.png" />
+  <item url="images/t_pr_d.png" />
+  <item url="images/t_pr_u.png" />
+  <item url="images/t_wh_d.png" />
+  <item url="images/t_wh_u.png" />
+  <item url="templates/" />
+  <item url="toolbars/" />
+  <item url="gen_src.html" />
+  <item url="pho_src.html" />
+  <item url="thm_src.html" /> </project></webproject>

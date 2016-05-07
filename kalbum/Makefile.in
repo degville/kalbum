@@ -1,0 +1,1027 @@
+# KDE tags expanded automatically by am_edit - $Revision: 1.1.1.1 $ 
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+####### kdevelop will overwrite this part!!! (begin)##########
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+#>- 
+bindir = @bindir@
+#>+ 3
+DEPDIR = .deps
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+build_alias = @build_alias@
+build_triplet = @build@
+host_alias = @host_alias@
+host_triplet = @host@
+target_alias = @target_alias@
+target_triplet = @target@
+ARTSCCONFIG = @ARTSCCONFIG@
+AS = @AS@
+AUTODIRS = @AUTODIRS@
+CC = @CC@
+CONF_FILES = @CONF_FILES@
+CPP = @CPP@
+CXX = @CXX@
+CXXCPP = @CXXCPP@
+DCOPIDL = @DCOPIDL@
+DCOPIDL2CPP = @DCOPIDL2CPP@
+DCOP_DEPENDENCIES = @DCOP_DEPENDENCIES@
+DLLTOOL = @DLLTOOL@
+DPMSINC = @DPMSINC@
+DPMSLIB = @DPMSLIB@
+EXEEXT = @EXEEXT@
+GCJ = @GCJ@
+GCJFLAGS = @GCJFLAGS@
+GLINC = @GLINC@
+GLLIB = @GLLIB@
+GMSGFMT = @GMSGFMT@
+IDL = @IDL@
+IDL_DEPENDENCIES = @IDL_DEPENDENCIES@
+JAR = @JAR@
+JAVAC = @JAVAC@
+JAVAH = @JAVAH@
+JVMLIBS = @JVMLIBS@
+KDECONFIG = @KDECONFIG@
+KDE_CXXFLAGS = @KDE_CXXFLAGS@
+KDE_EXTRA_RPATH = @KDE_EXTRA_RPATH@
+KDE_INCLUDES = @KDE_INCLUDES@
+KDE_LDFLAGS = @KDE_LDFLAGS@
+KDE_MT_LDFLAGS = @KDE_MT_LDFLAGS@
+KDE_MT_LIBS = @KDE_MT_LIBS@
+KDE_PLUGIN = @KDE_PLUGIN@
+KDE_RPATH = @KDE_RPATH@
+KDE_USE_CLOSURE_FALSE = @KDE_USE_CLOSURE_FALSE@
+KDE_USE_CLOSURE_TRUE = @KDE_USE_CLOSURE_TRUE@
+KDE_USE_FINAL_FALSE = @KDE_USE_FINAL_FALSE@
+KDE_USE_FINAL_TRUE = @KDE_USE_FINAL_TRUE@
+KDE_XSL_STYLESHEET = @KDE_XSL_STYLESHEET@
+LEX = @LEX@
+LEXLIB = @LEXLIB@
+LIBCOMPAT = @LIBCOMPAT@
+LIBCRYPT = @LIBCRYPT@
+LIBDL = @LIBDL@
+LIBGEN = @LIBGEN@
+LIBJPEG = @LIBJPEG@
+LIBMICO = @LIBMICO@
+LIBOBJS = @LIBOBJS@
+LIBPNG = @LIBPNG@
+LIBPTHREAD = @LIBPTHREAD@
+LIBPYTHON = @LIBPYTHON@
+LIBQIMGIO = @LIBQIMGIO@
+LIBRESOLV = @LIBRESOLV@
+LIBSHADOW = @LIBSHADOW@
+LIBSM = @LIBSM@
+LIBSOCKET = @LIBSOCKET@
+LIBTIFF = @LIBTIFF@
+LIBTOOL = @LIBTOOL@
+LIBUCB = @LIBUCB@
+LIBUTIL = @LIBUTIL@
+LIBXINERAMA = @LIBXINERAMA@
+LIBZ = @LIBZ@
+LIB_KAB = @LIB_KAB@
+LIB_KDECORE = @LIB_KDECORE@
+LIB_KDEPRINT = @LIB_KDEPRINT@
+LIB_KDEUI = @LIB_KDEUI@
+LIB_KFILE = @LIB_KFILE@
+LIB_KFM = @LIB_KFM@
+LIB_KHTML = @LIB_KHTML@
+LIB_KIMGIO = @LIB_KIMGIO@
+LIB_KIO = @LIB_KIO@
+LIB_KPARTS = @LIB_KPARTS@
+LIB_KSPELL = @LIB_KSPELL@
+LIB_KSYCOCA = @LIB_KSYCOCA@
+LIB_QPE = @LIB_QPE@
+LIB_QT = @LIB_QT@
+LIB_QTOPIA = @LIB_QTOPIA@
+LIB_SMB = @LIB_SMB@
+LIB_X11 = @LIB_X11@
+LIB_XEXT = @LIB_XEXT@
+LN_S = @LN_S@
+MAKEINFO = @MAKEINFO@
+MCOPIDL = @MCOPIDL@
+MEINPROC = @MEINPROC@
+MICO_INCLUDES = @MICO_INCLUDES@
+MICO_LDFLAGS = @MICO_LDFLAGS@
+MOC = @MOC@
+MSGFMT = @MSGFMT@
+NOOPT_CFLAGS = @NOOPT_CFLAGS@
+NOOPT_CXXFLAGS = @NOOPT_CXXFLAGS@
+NOREPO = @NOREPO@
+OBJDUMP = @OBJDUMP@
+OBJEXT = @OBJEXT@
+PACKAGE = @PACKAGE@
+PAMLIBS = @PAMLIBS@
+PASSWDLIBS = @PASSWDLIBS@
+PYTHONINC = @PYTHONINC@
+PYTHONLIB = @PYTHONLIB@
+PYTHONMODDIR = @PYTHONMODDIR@
+QTE_NORTTI = @QTE_NORTTI@
+QTOPIA_INCLUDES = @QTOPIA_INCLUDES@
+QT_INCLUDES = @QT_INCLUDES@
+QT_LDFLAGS = @QT_LDFLAGS@
+RANLIB = @RANLIB@
+REPO = @REPO@
+SETUIDFLAGS = @SETUIDFLAGS@
+STRIP = @STRIP@
+TOPSUBDIRS = @TOPSUBDIRS@
+UIC = @UIC@
+UIC_TR = @UIC_TR@
+USER_INCLUDES = @USER_INCLUDES@
+USER_LDFLAGS = @USER_LDFLAGS@
+USE_EXCEPTIONS = @USE_EXCEPTIONS@
+USE_RTTI = @USE_RTTI@
+USE_THREADS = @USE_THREADS@
+VERSION = @VERSION@
+WOVERLOADED_VIRTUAL = @WOVERLOADED_VIRTUAL@
+XGETTEXT = @XGETTEXT@
+XPMINC = @XPMINC@
+XPMLIB = @XPMLIB@
+X_EXTRA_LIBS = @X_EXTRA_LIBS@
+X_INCLUDES = @X_INCLUDES@
+X_LDFLAGS = @X_LDFLAGS@
+X_PRE_LIBS = @X_PRE_LIBS@
+all_includes = @all_includes@
+all_libraries = @all_libraries@
+idldir = @idldir@
+jni_includes = @jni_includes@
+kde_appsdir = @kde_appsdir@
+kde_bindir = @kde_bindir@
+kde_confdir = @kde_confdir@
+kde_datadir = @kde_datadir@
+kde_htmldir = @kde_htmldir@
+kde_icondir = @kde_icondir@
+kde_includes = @kde_includes@
+kde_libraries = @kde_libraries@
+kde_libs_htmldir = @kde_libs_htmldir@
+kde_libs_prefix = @kde_libs_prefix@
+kde_locale = @kde_locale@
+kde_mimedir = @kde_mimedir@
+kde_moduledir = @kde_moduledir@
+kde_qtver = @kde_qtver@
+kde_servicesdir = @kde_servicesdir@
+kde_servicetypesdir = @kde_servicetypesdir@
+kde_sounddir = @kde_sounddir@
+kde_styledir = @kde_styledir@
+kde_templatesdir = @kde_templatesdir@
+kde_wallpaperdir = @kde_wallpaperdir@
+kde_widgetdir = @kde_widgetdir@
+micodir = @micodir@
+qt_includes = @qt_includes@
+qt_libraries = @qt_libraries@
+x_includes = @x_includes@
+x_libraries = @x_libraries@
+
+bin_PROGRAMS = kalbum
+
+#>- kalbum_SOURCES = albuminfo.cpp albuminfodlg.ui previewimage.cpp previewimagedlg.ui photodetails.cpp photodetailsdlg.ui exportweb.cpp exportwebdlg.ui kalbumnoimagedlg.ui kalbumnoimage.cpp kalbumiconview.cpp kalbumviewitem.cpp photoalbum.cpp kdateedit.cpp kalmimesource.cpp kalbumviewdlg.cpp kalbumcredits.cpp datevalidator.cpp dateedit.cpp kalbumview.cpp kalbumdoc.cpp kalbum.cpp main.cpp 
+#>+ 1
+kalbum_SOURCES=albuminfo.cpp  previewimage.cpp  photodetails.cpp  exportweb.cpp   kalbumnoimage.cpp kalbumiconview.cpp kalbumviewitem.cpp photoalbum.cpp kdateedit.cpp kalmimesource.cpp kalbumviewdlg.cpp kalbumcredits.cpp datevalidator.cpp dateedit.cpp kalbumview.cpp kalbumdoc.cpp kalbum.cpp main.cpp  albuminfodlg.cpp previewimagedlg.cpp photodetailsdlg.cpp exportwebdlg.cpp kalbumnoimagedlg.cpp
+kalbum_LDADD = $(LIB_QT) $(LIB_KDECORE) $(LIB_KDEUI) $(LIB_KFILE)  $(LIBSOCKET)
+
+SUBDIRS = toolbar kalbum_html 
+
+EXTRA_DIST = main.cpp kalbum.cpp kalbum.h kalbumdoc.cpp kalbumdoc.h kalbumview.cpp kalbumview.h kalbumui.rc kalbum.desktop lo32-app-kalbum.png lo16-app-kalbum.png dateedit.cpp dateedit.h datevalidator.cpp datevalidator.h kalbumcredits.cpp kalbumcredits.h kalbumviewdlg.cpp kalbumviewdlg.h kalmimesource.cpp kalmimesource.h kdateedit.cpp kdateedit.h photoalbum.cpp photoalbum.h slide.png slide.xcf hi16-app-kalbum.png hi32-app-kalbum.png kalbumviewitem.cpp kalbumviewitem.h kalbumiconview.cpp kalbumiconview.h kalbumnoimage.cpp kalbumnoimagedlg.ui kalbumnoimage.h file_broken.png exportwebdlg.ui exportweb.cpp exportweb.h x-kalbum.desktop photodetailsdlg.ui photodetails.cpp photodetails.h previewimagedlg.ui previewimage.cpp previewimage.h slides.png albuminfodlg.ui albuminfo.cpp albuminfo.h 
+
+####### kdevelop will overwrite this part!!! (end)############
+# These paths are KDE specific. Use them:
+# kde_appsdir         Where your application's menu entry (.desktop) should go to.
+# kde_icondir         Where your icon should go to - better use KDE_ICON.
+# kde_sounddir        Where your sounds should go to.
+# kde_htmldir         Where your docs should go to. (contains lang subdirs)
+# kde_datadir         Where you install application data. (Use a subdir)
+# kde_locale          Where translation files should go to. (contains lang subdirs)
+# kde_cgidir          Where cgi-bin executables should go to.
+# kde_confdir         Where config files should go to (system-wide ones with default values).
+# kde_mimedir         Where mimetypes .desktop files should go to.
+# kde_servicesdir     Where services .desktop files should go to.
+# kde_servicetypesdir Where servicetypes .desktop files should go to.
+# kde_toolbardir      Where general toolbar icons should go to (deprecated, use KDE_ICON).
+# kde_wallpaperdir    Where general wallpapers should go to.
+# kde_templatesdir    Where templates for the "New" menu (Konqueror/KDesktop) should go to.
+# kde_bindir          Where executables should go to. Use bin_PROGRAMS or bin_SCRIPTS.
+# kde_libdir          Where shared libraries should go to. Use lib_LTLIBRARIES.
+# kde_moduledir       Where modules (e.g. parts) should go to. Use kde_module_LTLIBRARIES.
+# kde_styledir        Where Qt/KDE widget styles should go to (new in KDE 3).
+# kde_designerdir     Where Qt Designer plugins should go to (new in KDE 3).
+
+# set the include path for X, qt and KDE
+INCLUDES = $(all_includes)
+
+#>- METASOURCES = AUTO
+
+# the library search path. 
+kalbum_LDFLAGS = $(all_libraries) $(KDE_RPATH)
+
+rcdir = $(kde_datadir)/kalbum
+rc_DATA = kalbumui.rc
+mkinstalldirs = $(SHELL) $(top_srcdir)/admin/mkinstalldirs
+CONFIG_HEADER = ../config.h
+CONFIG_CLEAN_FILES = 
+bin_PROGRAMS =  kalbum$(EXEEXT)
+PROGRAMS =  $(bin_PROGRAMS)
+
+
+DEFS = @DEFS@ -I. -I$(srcdir) -I..
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+#>- kalbum_OBJECTS =  albuminfo.$(OBJEXT) previewimage.$(OBJEXT) \
+#>- photodetails.$(OBJEXT) exportweb.$(OBJEXT) kalbumnoimage.$(OBJEXT) \
+#>- kalbumiconview.$(OBJEXT) kalbumviewitem.$(OBJEXT) photoalbum.$(OBJEXT) \
+#>- kdateedit.$(OBJEXT) kalmimesource.$(OBJEXT) kalbumviewdlg.$(OBJEXT) \
+#>- kalbumcredits.$(OBJEXT) datevalidator.$(OBJEXT) dateedit.$(OBJEXT) \
+#>- kalbumview.$(OBJEXT) kalbumdoc.$(OBJEXT) kalbum.$(OBJEXT) \
+#>- main.$(OBJEXT)
+#>+ 12
+kalbum_final_OBJECTS = kalbum.all_cpp.o 
+kalbum_nofinal_OBJECTS = albuminfo.$(OBJEXT) previewimage.$(OBJEXT) \
+	photodetails.$(OBJEXT) exportweb.$(OBJEXT) kalbumnoimage.$(OBJEXT) \
+	kalbumiconview.$(OBJEXT) kalbumviewitem.$(OBJEXT) photoalbum.$(OBJEXT) \
+	kdateedit.$(OBJEXT) kalmimesource.$(OBJEXT) kalbumviewdlg.$(OBJEXT) \
+	kalbumcredits.$(OBJEXT) datevalidator.$(OBJEXT) dateedit.$(OBJEXT) \
+	kalbumview.$(OBJEXT) kalbumdoc.$(OBJEXT) kalbum.$(OBJEXT) \
+	main.$(OBJEXT) albuminfodlg.$(OBJEXT) previewimagedlg.$(OBJEXT) photodetailsdlg.$(OBJEXT) exportwebdlg.$(OBJEXT) kalbumnoimagedlg.$(OBJEXT)\
+	kalbumdoc.moc.o kalbumiconview.moc.o kalbum.moc.o kalbumnoimage.moc.o kalbumview.moc.o previewimage.moc.o exportweb.moc.o photodetails.moc.o albuminfo.moc.o  \
+	kalbum_meta_unload.o 
+@KDE_USE_FINAL_FALSE@kalbum_OBJECTS = $(kalbum_nofinal_OBJECTS)
+@KDE_USE_FINAL_TRUE@kalbum_OBJECTS = $(kalbum_final_OBJECTS)
+kalbum_DEPENDENCIES = 
+CXXFLAGS = @CXXFLAGS@
+#>- CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
+#>+ 1
+CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) $(KDE_CXXFLAGS)
+#>- LTCXXCOMPILE = $(LIBTOOL) --mode=compile $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
+#>+ 1
+LTCXXCOMPILE = $(LIBTOOL) --mode=compile --tag=CXX $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) $(KDE_CXXFLAGS)
+CXXLD = $(CXX)
+#>- CXXLINK = $(LIBTOOL) --mode=link $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(LDFLAGS) -o $@
+#>+ 1
+CXXLINK = $(LIBTOOL) --mode=link --tag=CXX $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(KDE_CXXFLAGS) $(LDFLAGS) -o $@
+DATA =  $(rc_DATA)
+
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+#>- DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+#>+ 4
+KDE_DIST=exportwebdlg.ui.h photodetailsdlg.ui.h 
+
+DISTFILES= $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST) $(KDE_DIST)
+
+
+TAR = gtar
+GZIP_ENV = --best
+#>- DEP_FILES =  .deps/albuminfo.P .deps/dateedit.P .deps/datevalidator.P \
+#>- .deps/exportweb.P .deps/kalbum.P .deps/kalbumcredits.P \
+#>- .deps/kalbumdoc.P .deps/kalbumiconview.P .deps/kalbumnoimage.P \
+#>- .deps/kalbumview.P .deps/kalbumviewdlg.P .deps/kalbumviewitem.P \
+#>- .deps/kalmimesource.P .deps/kdateedit.P .deps/main.P .deps/photoalbum.P \
+#>- .deps/photodetails.P .deps/previewimage.P
+#>+ 14
+@KDE_USE_FINAL_TRUE@DEP_FILES =  $(DEPDIR)/albuminfodlg.P $(DEPDIR)/previewimagedlg.P $(DEPDIR)/photodetailsdlg.P $(DEPDIR)/exportwebdlg.P $(DEPDIR)/kalbumnoimagedlg.P $(DEPDIR)/kalbumdoc.moc.P $(DEPDIR)/kalbumiconview.moc.P $(DEPDIR)/kalbum.moc.P $(DEPDIR)/kalbumnoimage.moc.P $(DEPDIR)/kalbumview.moc.P $(DEPDIR)/previewimage.moc.P $(DEPDIR)/exportweb.moc.P $(DEPDIR)/photodetails.moc.P $(DEPDIR)/albuminfo.moc.P $(DEPDIR)/kalbum_meta_unload.P  $(DEPDIR)/kalbum.all_cpp.P \
+		  .deps/albuminfo.P .deps/dateedit.P .deps/datevalidator.P \
+	.deps/exportweb.P .deps/kalbum.P .deps/kalbumcredits.P \
+	.deps/kalbumdoc.P .deps/kalbumiconview.P .deps/kalbumnoimage.P \
+	.deps/kalbumview.P .deps/kalbumviewdlg.P .deps/kalbumviewitem.P \
+	.deps/kalmimesource.P .deps/kdateedit.P .deps/main.P .deps/photoalbum.P \
+	.deps/photodetails.P .deps/previewimage.P
+@KDE_USE_FINAL_FALSE@DEP_FILES =  $(DEPDIR)/albuminfodlg.P $(DEPDIR)/previewimagedlg.P $(DEPDIR)/photodetailsdlg.P $(DEPDIR)/exportwebdlg.P $(DEPDIR)/kalbumnoimagedlg.P $(DEPDIR)/kalbumdoc.moc.P $(DEPDIR)/kalbumiconview.moc.P $(DEPDIR)/kalbum.moc.P $(DEPDIR)/kalbumnoimage.moc.P $(DEPDIR)/kalbumview.moc.P $(DEPDIR)/previewimage.moc.P $(DEPDIR)/exportweb.moc.P $(DEPDIR)/photodetails.moc.P $(DEPDIR)/albuminfo.moc.P $(DEPDIR)/kalbum_meta_unload.P   .deps/albuminfo.P .deps/dateedit.P .deps/datevalidator.P \
+	.deps/exportweb.P .deps/kalbum.P .deps/kalbumcredits.P \
+	.deps/kalbumdoc.P .deps/kalbumiconview.P .deps/kalbumnoimage.P \
+	.deps/kalbumview.P .deps/kalbumviewdlg.P .deps/kalbumviewitem.P \
+	.deps/kalmimesource.P .deps/kdateedit.P .deps/main.P .deps/photoalbum.P \
+	.deps/photodetails.P .deps/previewimage.P
+
+SOURCES = $(kalbum_SOURCES)
+OBJECTS = $(kalbum_OBJECTS)
+
+#>- all: all-redirect
+#>+ 1
+all: docs-am  all-redirect
+.SUFFIXES:
+.SUFFIXES: .S .c .cpp .lo .o .obj .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+#>- 	cd $(top_srcdir) && $(AUTOMAKE) --gnu kalbum/Makefile
+#>+ 2
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu kalbum/Makefile
+	cd $(top_srcdir) && perl admin/am_edit kalbum/Makefile.in
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status $(BUILT_SOURCES)
+	cd $(top_builddir) \
+	&& CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+
+mostlyclean-binPROGRAMS:
+
+clean-binPROGRAMS:
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+distclean-binPROGRAMS:
+
+maintainer-clean-binPROGRAMS:
+
+install-binPROGRAMS: $(bin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(bindir)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	if test -f $$p; then \
+	echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`"; \
+	$(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	else :; fi; \
+	done
+
+uninstall-binPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	list='$(bin_PROGRAMS)'; for p in $$list; do \
+	rm -f $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	done
+
+# FIXME: We should only use cygpath when building on Windows,
+# and only if it is available.
+.c.obj:
+	$(COMPILE) -c `cygpath -w $<`
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+	-rm -f *.$(OBJEXT)
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+.s.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.S.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+mostlyclean-libtool:
+	-rm -f *.lo
+
+clean-libtool:
+	-rm -rf .libs _libs
+
+distclean-libtool:
+
+maintainer-clean-libtool:
+
+kalbum$(EXEEXT): $(kalbum_OBJECTS) $(kalbum_DEPENDENCIES)
+	@rm -f kalbum$(EXEEXT)
+	$(CXXLINK) $(kalbum_LDFLAGS) $(kalbum_OBJECTS) $(kalbum_LDADD) $(LIBS)
+.cpp.o:
+	$(CXXCOMPILE) -c $<
+.cpp.obj:
+	$(CXXCOMPILE) -c `cygpath -w $<`
+.cpp.lo:
+	$(LTCXXCOMPILE) -c $<
+
+install-rcDATA: $(rc_DATA)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(rcdir)
+	@list='$(rc_DATA)'; for p in $$list; do \
+	if test -f $(srcdir)/$$p; then \
+	echo " $(INSTALL_DATA) $(srcdir)/$$p $(DESTDIR)$(rcdir)/$$p"; \
+	$(INSTALL_DATA) $(srcdir)/$$p $(DESTDIR)$(rcdir)/$$p; \
+	else if test -f $$p; then \
+	echo " $(INSTALL_DATA) $$p $(DESTDIR)$(rcdir)/$$p"; \
+	$(INSTALL_DATA) $$p $(DESTDIR)$(rcdir)/$$p; \
+	fi; fi; \
+	done
+
+uninstall-rcDATA:
+	@$(NORMAL_UNINSTALL)
+	list='$(rc_DATA)'; for p in $$list; do \
+	rm -f $(DESTDIR)$(rcdir)/$$p; \
+	done
+
+# This directory's subdirectories are mostly independent; you can cd
+# into them and run `make' without going through this Makefile.
+# To change the values of `make' variables: instead of editing Makefiles,
+# (1) if the variable is set in `config.status', edit `config.status'
+#     (which will cause the Makefiles to be regenerated when you run `make');
+# (2) otherwise, pass the desired values on the `make' command line.
+
+@SET_MAKE@
+
+all-recursive install-data-recursive install-exec-recursive \
+	installdirs-recursive install-recursive uninstall-recursive  \
+	check-recursive installcheck-recursive info-recursive dvi-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	dot_seen=no; \
+	target=`echo $@ | sed s/-recursive//`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	echo "Making $$target in $$subdir"; \
+	if test "$$subdir" = "."; then \
+	dot_seen=yes; \
+	local_target="$$target-am"; \
+	else \
+	local_target="$$target"; \
+	fi; \
+	(cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+	|| case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done; \
+	if test "$$dot_seen" = "no"; then \
+	$(MAKE) $(AM_MAKEFLAGS) "$$target-am" || exit 1; \
+	fi; test -z "$$fail"
+
+mostlyclean-recursive clean-recursive distclean-recursive \
+	maintainer-clean-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	dot_seen=no; \
+	rev=''; list='$(SUBDIRS)'; for subdir in $$list; do \
+	rev="$$subdir $$rev"; \
+	test "$$subdir" != "." || dot_seen=yes; \
+	done; \
+	test "$$dot_seen" = "no" && rev=". $$rev"; \
+	target=`echo $@ | sed s/-recursive//`; \
+	for subdir in $$rev; do \
+	echo "Making $$target in $$subdir"; \
+	if test "$$subdir" = "."; then \
+	local_target="$$target-am"; \
+	else \
+	local_target="$$target"; \
+	fi; \
+	(cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+	|| case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done && test -z "$$fail"
+tags-recursive:
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \
+	done
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	awk '    { files[$$0] = 1; } \
+	END { for (i in files) print i; }'`; \
+	here=`pwd` && cd $(srcdir) \
+	&& mkid -f$$here/ID $$unique $(LISP)
+
+TAGS: tags-recursive $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	if test "$$subdir" = .; then :; else \
+	test -f $$subdir/TAGS && tags="$$tags -i $$here/$$subdir/TAGS"; \
+	fi; \
+	done; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	awk '    { files[$$0] = 1; } \
+	END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	|| (cd $(srcdir) && etags $(ETAGS_ARGS) $$tags  $$unique $(LISP) -o $$here/TAGS)
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = kalbum
+
+distdir: $(DISTFILES)
+	here=`cd $(top_builddir) && pwd`; \
+	top_distdir=`cd $(top_distdir) && pwd`; \
+	distdir=`cd $(distdir) && pwd`; \
+	cd $(top_srcdir) \
+	&& $(AUTOMAKE) --include-deps --build-dir=$$here --srcdir-name=$(top_srcdir) --output-dir=$$top_distdir --gnu kalbum/Makefile
+	@for file in $(DISTFILES); do \
+	d=$(srcdir); \
+	if test -d $$d/$$file; then \
+	cp -pr $$d/$$file $(distdir)/$$file; \
+	else \
+	test -f $(distdir)/$$file \
+	|| ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	|| cp -p $$d/$$file $(distdir)/$$file || :; \
+	fi; \
+	done
+	for subdir in $(SUBDIRS); do \
+	if test "$$subdir" = .; then :; else \
+	test -d $(distdir)/$$subdir \
+	|| mkdir $(distdir)/$$subdir \
+	|| exit 1; \
+	chmod 777 $(distdir)/$$subdir; \
+	(cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) top_distdir=../$(top_distdir) distdir=../$(distdir)/$$subdir distdir) \
+	|| exit 1; \
+	fi; \
+	done
+
+DEPS_MAGIC := $(shell mkdir .deps > /dev/null 2>&1 || :)
+
+-include $(DEP_FILES)
+
+mostlyclean-depend:
+
+clean-depend:
+
+distclean-depend:
+	-rm -rf .deps
+
+maintainer-clean-depend:
+
+%.o: %.c
+	@echo '$(COMPILE) -c $<'; \
+	$(COMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-cp .deps/$(*F).pp .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	| sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	>> .deps/$(*F).P; \
+	rm .deps/$(*F).pp
+
+%.lo: %.c
+	@echo '$(LTCOMPILE) -c $<'; \
+	$(LTCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-sed -e 's/^\([^:]*\)\.o[ 	]*:/\1.lo \1.o :/' \
+	< .deps/$(*F).pp > .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	| sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	>> .deps/$(*F).P; \
+	rm -f .deps/$(*F).pp
+
+%.o: %.cpp
+	@echo '$(CXXCOMPILE) -c $<'; \
+	$(CXXCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-cp .deps/$(*F).pp .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	| sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	>> .deps/$(*F).P; \
+	rm .deps/$(*F).pp
+
+%.lo: %.cpp
+	@echo '$(LTCXXCOMPILE) -c $<'; \
+	$(LTCXXCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-sed -e 's/^\([^:]*\)\.o[ 	]*:/\1.lo \1.o :/' \
+	< .deps/$(*F).pp > .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	| sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	>> .deps/$(*F).P; \
+	rm -f .deps/$(*F).pp
+info-am:
+info: info-recursive
+dvi-am:
+dvi: dvi-recursive
+check-am: all-am
+check: check-recursive
+installcheck-am:
+installcheck: installcheck-recursive
+install-exec-am: install-binPROGRAMS
+install-exec: install-exec-recursive
+
+install-data-am: install-rcDATA install-data-local
+install-data: install-data-recursive
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-recursive
+uninstall-am: uninstall-binPROGRAMS uninstall-rcDATA uninstall-local
+uninstall: uninstall-recursive
+all-am: Makefile $(PROGRAMS) $(DATA)
+all-redirect: all-recursive
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs: installdirs-recursive
+installdirs-am:
+	$(mkinstalldirs)  $(DESTDIR)$(bindir) $(DESTDIR)$(rcdir)
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-binPROGRAMS mostlyclean-compile \
+	mostlyclean-libtool mostlyclean-tags mostlyclean-depend \
+	mostlyclean-generic
+
+mostlyclean: mostlyclean-recursive
+
+#>- clean-am:  clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+#>- clean-depend clean-generic mostlyclean-am
+#>+ 2
+clean-am: clean-metasources clean-ui clean-moc-classes clean-final   clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+	clean-depend clean-generic mostlyclean-am
+
+#>- clean: clean-recursive
+#>+ 1
+clean: kde-rpo-clean  clean-recursive
+
+distclean-am:  distclean-binPROGRAMS distclean-compile distclean-libtool \
+	distclean-tags distclean-depend distclean-generic \
+	clean-am
+	-rm -f libtool
+
+distclean: distclean-recursive
+
+maintainer-clean-am:  maintainer-clean-binPROGRAMS \
+	maintainer-clean-compile maintainer-clean-libtool \
+	maintainer-clean-tags maintainer-clean-depend \
+	maintainer-clean-generic distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-recursive
+
+.PHONY: mostlyclean-binPROGRAMS distclean-binPROGRAMS clean-binPROGRAMS \
+	maintainer-clean-binPROGRAMS uninstall-binPROGRAMS install-binPROGRAMS \
+	mostlyclean-compile distclean-compile clean-compile \
+	maintainer-clean-compile mostlyclean-libtool distclean-libtool \
+	clean-libtool maintainer-clean-libtool uninstall-rcDATA install-rcDATA \
+	install-data-recursive uninstall-data-recursive install-exec-recursive \
+	uninstall-exec-recursive installdirs-recursive uninstalldirs-recursive \
+	all-recursive check-recursive installcheck-recursive info-recursive \
+	dvi-recursive mostlyclean-recursive distclean-recursive clean-recursive \
+	maintainer-clean-recursive tags tags-recursive mostlyclean-tags \
+	distclean-tags clean-tags maintainer-clean-tags distdir \
+	mostlyclean-depend distclean-depend clean-depend \
+	maintainer-clean-depend info-am info dvi-am dvi check check-am \
+	installcheck-am installcheck install-exec-am install-exec \
+	install-data-local install-data-am install-data install-am install \
+	uninstall-local uninstall-am uninstall all-redirect all-am all \
+	installdirs-am installdirs mostlyclean-generic distclean-generic \
+	clean-generic maintainer-clean-generic clean mostlyclean distclean \
+	maintainer-clean
+
+
+install-data-local:
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/
+#>- 	$(INSTALL_DATA) $(srcdir)/kalbumui.rc $(kde_datadir)/kalbum/kalbumui.rc
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/kalbumui.rc $(DESTDIR)$(kde_datadir)/kalbum/kalbumui.rc
+#>- 	$(mkinstalldirs) $(kde_appsdir)/Applications/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_appsdir)/Applications/
+#>- 	$(INSTALL_DATA) $(srcdir)/kalbum.desktop $(kde_appsdir)/Applications/kalbum.desktop
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/kalbum.desktop $(DESTDIR)$(kde_appsdir)/Applications/kalbum.desktop
+#>- 	$(mkinstalldirs) $(kde_icondir)/locolor/32x32/apps/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_icondir)/locolor/32x32/apps/
+#>- 	$(INSTALL_DATA) $(srcdir)/lo32-app-kalbum.png $(kde_icondir)/locolor/32x32/apps/kalbum.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/lo32-app-kalbum.png $(DESTDIR)$(kde_icondir)/locolor/32x32/apps/kalbum.png
+#>- 	$(mkinstalldirs) $(kde_icondir)/locolor/16x16/apps/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_icondir)/locolor/16x16/apps/
+#>- 	$(INSTALL_DATA) $(srcdir)/lo16-app-kalbum.png $(kde_icondir)/locolor/16x16/apps/kalbum.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/lo16-app-kalbum.png $(DESTDIR)$(kde_icondir)/locolor/16x16/apps/kalbum.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/slides/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/slides/
+#>- 	$(INSTALL_DATA) $(srcdir)/slide.png $(kde_datadir)/kalbum/data/slides/slide01.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/slide.png $(DESTDIR)$(kde_datadir)/kalbum/data/slides/slide01.png
+#>- 	$(mkinstalldirs) $(kde_icondir)/hicolor/16x16/apps/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_icondir)/hicolor/16x16/apps/
+#>- 	$(INSTALL_DATA) $(srcdir)/hi16-app-kalbum.png $(kde_icondir)/hicolor/16x16/apps/kalbum.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/hi16-app-kalbum.png $(DESTDIR)$(kde_icondir)/hicolor/16x16/apps/kalbum.png
+#>- 	$(mkinstalldirs) $(kde_icondir)/hicolor/32x32/apps/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_icondir)/hicolor/32x32/apps/
+#>- 	$(INSTALL_DATA) $(srcdir)/hi32-app-kalbum.png $(kde_icondir)/hicolor/32x32/apps/kalbum.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/hi32-app-kalbum.png $(DESTDIR)$(kde_icondir)/hicolor/32x32/apps/kalbum.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/icons/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/icons/
+#>- 	$(INSTALL_DATA) $(srcdir)/file_broken.png $(kde_datadir)/kalbum/data/icons/file_broken.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/file_broken.png $(DESTDIR)$(kde_datadir)/kalbum/data/icons/file_broken.png
+#>- 	$(mkinstalldirs) $(kde_mimedir)/application/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_mimedir)/application/
+#>- 	$(INSTALL_DATA) $(srcdir)/x-kalbum.desktop $(kde_mimedir)/application/x-kalbum.desktop
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/x-kalbum.desktop $(DESTDIR)$(kde_mimedir)/application/x-kalbum.desktop
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/slides/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/slides/
+#>- 	$(INSTALL_DATA) $(srcdir)/slides.png $(kde_datadir)/kalbum/data/slides/slides01.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/slides.png $(DESTDIR)$(kde_datadir)/kalbum/data/slides/slides01.png
+
+uninstall-local:
+#>- 	-rm -f $(kde_datadir)/kalbum/kalbumui.rc
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/kalbumui.rc
+#>- 	-rm -f $(kde_appsdir)/Applications/kalbum.desktop
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_appsdir)/Applications/kalbum.desktop
+#>- 	-rm -f $(kde_icondir)/locolor/32x32/apps/kalbum.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_icondir)/locolor/32x32/apps/kalbum.png
+#>- 	-rm -f $(kde_icondir)/locolor/16x16/apps/kalbum.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_icondir)/locolor/16x16/apps/kalbum.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/slides/slide01.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/slides/slide01.png
+#>- 	-rm -f $(kde_icondir)/hicolor/16x16/apps/kalbum.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_icondir)/hicolor/16x16/apps/kalbum.png
+#>- 	-rm -f $(kde_icondir)/hicolor/32x32/apps/kalbum.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_icondir)/hicolor/32x32/apps/kalbum.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/icons/file_broken.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/icons/file_broken.png
+#>- 	-rm -f $(kde_mimedir)/application/x-kalbum.desktop
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_mimedir)/application/x-kalbum.desktop
+#>- 	-rm -f $(kde_datadir)/kalbum/data/slides/slides01.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/slides/slides01.png
+
+messages: rc.cpp
+	LIST=`find . -name \*.h -o -name \*.hh -o -name \*.H -o -name \*.hxx -o -name \*.hpp -o -name \*.cpp -o -name \*.cc -o -name \*.cxx -o -name \*.ecpp -o -name \*.C`; \
+	if test -n "$$LIST"; then \
+	$(XGETTEXT) $$LIST -o $(podir)/kalbum.pot; \
+	fi
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:
+
+#>+ 56
+albuminfodlg.cpp: $(srcdir)/albuminfodlg.ui albuminfodlg.h albuminfodlg.moc
+	rm -f albuminfodlg.cpp
+	echo '#include <klocale.h>' > albuminfodlg.cpp
+	$(UIC) -tr ${UIC_TR} -i albuminfodlg.h $(srcdir)/albuminfodlg.ui | sed -e "s,${UIC_TR}( \"\" ),QString::null,g" | sed -e "s,${UIC_TR}( \"\"\, \"\" ),QString::null,g" | sed -e "s,image\([0-9][0-9]*\)_data,img\1_albuminfodlg,g" >> albuminfodlg.cpp || rm -f albuminfodlg.cpp
+	echo '#include "albuminfodlg.moc"' >> albuminfodlg.cpp
+
+albuminfodlg.h: $(srcdir)/albuminfodlg.ui
+	$(UIC) -o albuminfodlg.h $(srcdir)/albuminfodlg.ui
+
+albuminfodlg.moc: albuminfodlg.h
+	$(MOC) albuminfodlg.h -o albuminfodlg.moc
+previewimagedlg.cpp: $(srcdir)/previewimagedlg.ui previewimagedlg.h previewimagedlg.moc
+	rm -f previewimagedlg.cpp
+	echo '#include <klocale.h>' > previewimagedlg.cpp
+	$(UIC) -tr ${UIC_TR} -i previewimagedlg.h $(srcdir)/previewimagedlg.ui | sed -e "s,${UIC_TR}( \"\" ),QString::null,g" | sed -e "s,${UIC_TR}( \"\"\, \"\" ),QString::null,g" | sed -e "s,image\([0-9][0-9]*\)_data,img\1_previewimagedlg,g" >> previewimagedlg.cpp || rm -f previewimagedlg.cpp
+	echo '#include "previewimagedlg.moc"' >> previewimagedlg.cpp
+
+previewimagedlg.h: $(srcdir)/previewimagedlg.ui
+	$(UIC) -o previewimagedlg.h $(srcdir)/previewimagedlg.ui
+
+previewimagedlg.moc: previewimagedlg.h
+	$(MOC) previewimagedlg.h -o previewimagedlg.moc
+photodetailsdlg.cpp: $(srcdir)/photodetailsdlg.ui photodetailsdlg.h photodetailsdlg.moc
+	rm -f photodetailsdlg.cpp
+	echo '#include <klocale.h>' > photodetailsdlg.cpp
+	$(UIC) -tr ${UIC_TR} -i photodetailsdlg.h $(srcdir)/photodetailsdlg.ui | sed -e "s,${UIC_TR}( \"\" ),QString::null,g" | sed -e "s,${UIC_TR}( \"\"\, \"\" ),QString::null,g" | sed -e "s,image\([0-9][0-9]*\)_data,img\1_photodetailsdlg,g" >> photodetailsdlg.cpp || rm -f photodetailsdlg.cpp
+	echo '#include "photodetailsdlg.moc"' >> photodetailsdlg.cpp
+
+photodetailsdlg.h: $(srcdir)/photodetailsdlg.ui
+	$(UIC) -o photodetailsdlg.h $(srcdir)/photodetailsdlg.ui
+
+photodetailsdlg.moc: photodetailsdlg.h
+	$(MOC) photodetailsdlg.h -o photodetailsdlg.moc
+exportwebdlg.cpp: $(srcdir)/exportwebdlg.ui exportwebdlg.h exportwebdlg.moc
+	rm -f exportwebdlg.cpp
+	echo '#include <klocale.h>' > exportwebdlg.cpp
+	$(UIC) -tr ${UIC_TR} -i exportwebdlg.h $(srcdir)/exportwebdlg.ui | sed -e "s,${UIC_TR}( \"\" ),QString::null,g" | sed -e "s,${UIC_TR}( \"\"\, \"\" ),QString::null,g" | sed -e "s,image\([0-9][0-9]*\)_data,img\1_exportwebdlg,g" >> exportwebdlg.cpp || rm -f exportwebdlg.cpp
+	echo '#include "exportwebdlg.moc"' >> exportwebdlg.cpp
+
+exportwebdlg.h: $(srcdir)/exportwebdlg.ui
+	$(UIC) -o exportwebdlg.h $(srcdir)/exportwebdlg.ui
+
+exportwebdlg.moc: exportwebdlg.h
+	$(MOC) exportwebdlg.h -o exportwebdlg.moc
+kalbumnoimagedlg.cpp: $(srcdir)/kalbumnoimagedlg.ui kalbumnoimagedlg.h kalbumnoimagedlg.moc
+	rm -f kalbumnoimagedlg.cpp
+	echo '#include <klocale.h>' > kalbumnoimagedlg.cpp
+	$(UIC) -tr ${UIC_TR} -i kalbumnoimagedlg.h $(srcdir)/kalbumnoimagedlg.ui | sed -e "s,${UIC_TR}( \"\" ),QString::null,g" | sed -e "s,${UIC_TR}( \"\"\, \"\" ),QString::null,g" | sed -e "s,image\([0-9][0-9]*\)_data,img\1_kalbumnoimagedlg,g" >> kalbumnoimagedlg.cpp || rm -f kalbumnoimagedlg.cpp
+	echo '#include "kalbumnoimagedlg.moc"' >> kalbumnoimagedlg.cpp
+
+kalbumnoimagedlg.h: $(srcdir)/kalbumnoimagedlg.ui
+	$(UIC) -o kalbumnoimagedlg.h $(srcdir)/kalbumnoimagedlg.ui
+
+kalbumnoimagedlg.moc: kalbumnoimagedlg.h
+	$(MOC) kalbumnoimagedlg.h -o kalbumnoimagedlg.moc
+
+#>+ 3
+datevalidator.moc: $(srcdir)/datevalidator.h
+	$(MOC) $(srcdir)/datevalidator.h -o datevalidator.moc
+
+#>+ 3
+kalbumdoc.moc.cpp: $(srcdir)/kalbumdoc.h
+	$(MOC) $(srcdir)/kalbumdoc.h -o kalbumdoc.moc.cpp
+
+#>+ 3
+kalbumiconview.moc.cpp: $(srcdir)/kalbumiconview.h
+	$(MOC) $(srcdir)/kalbumiconview.h -o kalbumiconview.moc.cpp
+
+#>+ 3
+kalbum.moc.cpp: $(srcdir)/kalbum.h
+	$(MOC) $(srcdir)/kalbum.h -o kalbum.moc.cpp
+
+#>+ 3
+kalbumnoimage.moc.cpp: $(srcdir)/kalbumnoimage.h
+	$(MOC) $(srcdir)/kalbumnoimage.h -o kalbumnoimage.moc.cpp
+
+#>+ 3
+kalbumviewdlg.moc: $(srcdir)/kalbumviewdlg.h
+	$(MOC) $(srcdir)/kalbumviewdlg.h -o kalbumviewdlg.moc
+
+#>+ 3
+kdateedit.moc: $(srcdir)/kdateedit.h
+	$(MOC) $(srcdir)/kdateedit.h -o kdateedit.moc
+
+#>+ 3
+kalbumview.moc.cpp: $(srcdir)/kalbumview.h
+	$(MOC) $(srcdir)/kalbumview.h -o kalbumview.moc.cpp
+
+#>+ 3
+previewimage.moc.cpp: $(srcdir)/previewimage.h
+	$(MOC) $(srcdir)/previewimage.h -o previewimage.moc.cpp
+
+#>+ 3
+exportweb.moc.cpp: $(srcdir)/exportweb.h
+	$(MOC) $(srcdir)/exportweb.h -o exportweb.moc.cpp
+
+#>+ 3
+photodetails.moc.cpp: $(srcdir)/photodetails.h
+	$(MOC) $(srcdir)/photodetails.h -o photodetails.moc.cpp
+
+#>+ 3
+dateedit.moc: $(srcdir)/dateedit.h
+	$(MOC) $(srcdir)/dateedit.h -o dateedit.moc
+
+#>+ 3
+albuminfo.moc.cpp: $(srcdir)/albuminfo.h
+	$(MOC) $(srcdir)/albuminfo.h -o albuminfo.moc.cpp
+
+#>+ 3
+clean-metasources:
+	-rm -f  datevalidator.moc kalbumdoc.moc.cpp kalbumiconview.moc.cpp kalbum.moc.cpp kalbumnoimage.moc.cpp kalbumviewdlg.moc kdateedit.moc kalbumview.moc.cpp previewimage.moc.cpp exportweb.moc.cpp photodetails.moc.cpp dateedit.moc albuminfo.moc.cpp
+
+#>+ 8
+clean-ui:
+	-rm -f \
+	albuminfodlg.cpp albuminfodlg.h albuminfodlg.moc \
+	previewimagedlg.cpp previewimagedlg.h previewimagedlg.moc \
+	photodetailsdlg.cpp photodetailsdlg.h photodetailsdlg.moc \
+	exportwebdlg.cpp exportwebdlg.h exportwebdlg.moc \
+	kalbumnoimagedlg.cpp kalbumnoimagedlg.h kalbumnoimagedlg.moc 
+
+#>+ 2
+docs-am:
+
+#>+ 5
+force-reedit:
+		cd $(top_srcdir) && $(AUTOMAKE) --gnu kalbum/Makefile
+	cd $(top_srcdir) && perl admin/am_edit kalbum/Makefile.in
+
+
+#>+ 12
+kalbum_meta_unload.cpp:  datevalidator.moc kalbumiconview.moc.cpp dateedit.moc albuminfo.moc.cpp exportweb.moc.cpp kalbumdoc.moc.cpp kalbum.moc.cpp previewimagedlg.moc kalbumviewdlg.moc albuminfodlg.moc kalbumnoimagedlg.moc exportwebdlg.moc kalbumnoimage.moc.cpp photodetailsdlg.moc kdateedit.moc kalbumview.moc.cpp previewimage.moc.cpp photodetails.moc.cpp
+	@echo 'creating kalbum_meta_unload.cpp'
+	@-rm -f kalbum_meta_unload.cpp
+	@if test ${kde_qtver} = 2; then \
+		echo 'static const char * _metalist_kalbum[] = {' > kalbum_meta_unload.cpp ;\
+		cat  datevalidator.moc kalbumiconview.moc.cpp dateedit.moc albuminfo.moc.cpp exportweb.moc.cpp kalbumdoc.moc.cpp kalbum.moc.cpp previewimagedlg.moc kalbumviewdlg.moc albuminfodlg.moc kalbumnoimagedlg.moc exportwebdlg.moc kalbumnoimage.moc.cpp photodetailsdlg.moc kdateedit.moc kalbumview.moc.cpp previewimage.moc.cpp photodetails.moc.cpp | grep 'char.*className' | sed -e 's/.*[^A-Za-z0-9_:]\([A-Za-z0-9_:]*\)::className.*$$/\"\1\",/' | sort | uniq >> kalbum_meta_unload.cpp ;\
+		echo '0};' >> kalbum_meta_unload.cpp ;\
+		echo '#include <kunload.h>' >> kalbum_meta_unload.cpp ;\
+		echo '_UNLOAD(kalbum)' >> kalbum_meta_unload.cpp ;\
+	else echo > kalbum_meta_unload.cpp; fi
+
+
+#>+ 3
+clean-moc-classes:
+	-rm -f  kalbum_meta_unload.cpp
+
+#>+ 11
+kalbum.all_cpp.cpp: $(srcdir)/Makefile.in $(srcdir)/albuminfo.cpp $(srcdir)/previewimage.cpp $(srcdir)/photodetails.cpp $(srcdir)/exportweb.cpp $(srcdir)/kalbumnoimage.cpp $(srcdir)/kalbumiconview.cpp $(srcdir)/kalbumviewitem.cpp $(srcdir)/photoalbum.cpp $(srcdir)/kdateedit.cpp $(srcdir)/kalmimesource.cpp $(srcdir)/kalbumviewdlg.cpp $(srcdir)/kalbumcredits.cpp $(srcdir)/datevalidator.cpp $(srcdir)/dateedit.cpp $(srcdir)/kalbumview.cpp $(srcdir)/kalbumdoc.cpp $(srcdir)/kalbum.cpp $(srcdir)/main.cpp albuminfodlg.cpp previewimagedlg.cpp photodetailsdlg.cpp exportwebdlg.cpp kalbumnoimagedlg.cpp kalbum_meta_unload.cpp  kalbumdoc.moc.cpp kalbumiconview.moc.cpp kalbum.moc.cpp kalbumnoimage.moc.cpp kalbumview.moc.cpp previewimage.moc.cpp exportweb.moc.cpp photodetails.moc.cpp albuminfo.moc.cpp datevalidator.moc kalbumviewdlg.moc kdateedit.moc dateedit.moc 
+	@echo 'creating kalbum.all_cpp.cpp ...'; \
+	rm -f kalbum.all_cpp.files kalbum.all_cpp.final; \
+	echo "#define KDE_USE_FINAL 1" >> kalbum.all_cpp.final; \
+	for file in albuminfo.cpp previewimage.cpp photodetails.cpp exportweb.cpp kalbumnoimage.cpp kalbumiconview.cpp kalbumviewitem.cpp photoalbum.cpp kdateedit.cpp kalmimesource.cpp kalbumviewdlg.cpp kalbumcredits.cpp datevalidator.cpp dateedit.cpp kalbumview.cpp kalbumdoc.cpp kalbum.cpp main.cpp albuminfodlg.cpp previewimagedlg.cpp photodetailsdlg.cpp exportwebdlg.cpp kalbumnoimagedlg.cpp kalbum_meta_unload.cpp  kalbumdoc.moc.cpp kalbumiconview.moc.cpp kalbum.moc.cpp kalbumnoimage.moc.cpp kalbumview.moc.cpp previewimage.moc.cpp exportweb.moc.cpp photodetails.moc.cpp albuminfo.moc.cpp; do \
+	  echo "#include \"$$file\"" >> kalbum.all_cpp.files; \
+	  test ! -f $(srcdir)/$$file || egrep '^#pragma +implementation' $(srcdir)/$$file >> kalbum.all_cpp.final; \
+	done; \
+	cat kalbum.all_cpp.final kalbum.all_cpp.files  > kalbum.all_cpp.cpp; \
+	rm -f kalbum.all_cpp.final kalbum.all_cpp.files
+
+#>+ 3
+clean-final:
+	-rm -f kalbum.all_cpp.cpp
+
+#>+ 2
+final:
+	$(MAKE) kalbum_OBJECTS="$(kalbum_final_OBJECTS)" all-am
+#>+ 2
+final-install:
+	$(MAKE) kalbum_OBJECTS="$(kalbum_final_OBJECTS)" install-am
+#>+ 2
+no-final:
+	$(MAKE) kalbum_OBJECTS="$(kalbum_nofinal_OBJECTS)" all-am
+#>+ 2
+no-final-install:
+	$(MAKE) kalbum_OBJECTS="$(kalbum_nofinal_OBJECTS)" install-am
+#>+ 3
+cvs-clean:
+	$(MAKE) -f $(top_srcdir)/admin/Makefile.common cvs-clean
+
+#>+ 3
+kde-rpo-clean:
+	-rm -f *.rpo
+
+#>+ 19
+$(srcdir)/previewimage.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/datevalidator.cpp: datevalidator.moc albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/photodetails.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kdateedit.cpp: kdateedit.moc albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumdoc.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/main.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/photoalbum.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbum.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumviewitem.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumnoimage.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalmimesource.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/albuminfo.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumview.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumcredits.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumviewdlg.cpp: kalbumviewdlg.moc albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/exportweb.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/dateedit.cpp: dateedit.moc albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 
+$(srcdir)/kalbumiconview.cpp: albuminfodlg.h previewimagedlg.h photodetailsdlg.h exportwebdlg.h kalbumnoimagedlg.h 

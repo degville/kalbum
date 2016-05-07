@@ -1,0 +1,212 @@
+<!DOCTYPE UI><UI version="3.0" stdsetdef="1">
+<class>KalbumNoImageDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>KalbumNoImageDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>3</y>
+            <width>356</width>
+            <height>139</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>5</hsizetype>
+            <vsizetype>0</vsizetype>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>200</width>
+            <height>139</height>
+        </size>
+    </property>
+    <property name="maximumSize">
+        <size>
+            <width>32767</width>
+            <height>138</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Unable to find image</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>11</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QLayoutWidget" row="1" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>Layout3</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Please give an alternative location:</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name" stdset="0">
+                        <cstring>Spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <spacer row="3" column="0">
+            <property name="name" stdset="0">
+                <cstring>Spacer17</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="KPushButton" row="3" column="1">
+            <property name="name">
+                <cstring>KPushButton1</cstring>
+            </property>
+            <property name="text">
+                <string>&amp;Accept</string>
+            </property>
+            <property name="toolTip" stdset="0">
+                <string>Accept new image location</string>
+            </property>
+        </widget>
+        <widget class="KPushButton" row="3" column="2">
+            <property name="name">
+                <cstring>KPushButton1_2</cstring>
+            </property>
+            <property name="text">
+                <string>&amp;Ignore</string>
+            </property>
+            <property name="toolTip" stdset="0">
+                <string>Proceed withour finding image</string>
+            </property>
+        </widget>
+        <widget class="KURLRequester" row="2" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>KURLRequester1</cstring>
+            </property>
+            <property name="toolTip" stdset="0">
+                <string>Set new location for image</string>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget" row="0" column="0" rowspan="1" colspan="3">
+            <property name="name">
+                <cstring>Layout4</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>TextLabel1</cstring>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <bold>1</bold>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>Unable to find:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>KURLLabel1</cstring>
+                    </property>
+                    <property name="font">
+                        <font>
+                            <underline>1</underline>
+                        </font>
+                    </property>
+                    <property name="text">
+                        <string>TextLabel1</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name" stdset="0">
+                        <cstring>Spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>KPushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>KalbumNoImageDlg</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>KPushButton1_2</sender>
+        <signal>clicked()</signal>
+        <receiver>KalbumNoImageDlg</receiver>
+        <slot>reject()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

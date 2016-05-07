@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=create albums out of a collection of images
+Comment[en_GB]=create albums out of a collection of images
+DocPath=kalbum/index.html
+Encoding=UTF-8
+Exec=kalbum -caption "%c" %i %m
+Icon=kalbum.png
+MimeType=application/x-kalbum
+Name=Kalbum
+Name[en_GB]=Kalbum
+ServiceTypes=
+Terminal=0
+Type=Application
+X-KDE-NativeMimeType=application/x-kalbum

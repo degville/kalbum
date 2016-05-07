@@ -1,0 +1,25 @@
+############
+kalbum 0.8.0
+############
+
+KNOWN BUGS
+----------
+- duplicate images create problems with the HTML export
+- dubious network transparency
+
+
+For release 1.0.0
+-----------------
+(in no particular order)
+
+- choice of different website templates
+- Undo and Redo
+- useful information added to the status bar
+- loading thumbnails from a common shared cache
+- customize sizes for final images and thumbnails
+- provide the choice of a binary file format for .kalbum
+- configuration for changing slide image and other options
+- image Properties: Colour Correction, open an external editor
+- create drop shadows for thumbnails and images
+- add a bookshelf manager for an album collection
+- documentation

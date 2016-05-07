@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=Image Album
+Comment[en_GB]=Image Album
+DefaultApp=kalbum
+Encoding=UTF-8
+Icon=kalbum
+MimeType=application/x-kalbum
+Patterns=*.kalbum;
+Type=MimeType
+Patterns=*.kalbum

@@ -1,0 +1,41 @@
+0.8.0
+* added an option to export html as a single .war file
+* added an option to include link to original images from generated html
+* added command line option to add images to a new album
+* saves export dialog settings within an album
+* vast speed increase for editing image details without the preview window being open
+* clicking on the image's url now produces a requester for changing the image's location
+* increased the number of thumbnails in html output to nine
+* all fields within the details window can now modify all selected images
+* added total and selected information to the status bar
+* added a time field for the images
+* re-coded a more versatile gui (dock widgets)
+* changed html file extensions from .htm to .html
+* added more image formats to file requesters
+* added French translation by (for 0.7.4) Fabrice Belon
+* added Spanish translation (for 0.8.0) by Miguel Revilla Rodríguez
+* added Hungarian translation (for 0.7.4) by Marcel Hilzinger
+* FIXED: centralised author field without email in html generation
+
+
+0.7.4
+* added an option to rotate the image (non destructively)
+* reimplemented drag and drop code, providing extra stability and feedback
+* improved speed for loading the image into the photo properties editor
+* added progress indicator (used for intensive tasks)
+* added Italian translation (for 0.7.0-2) by Daniele Medri
+* FIXED: thumbnail html generating unnecessary next page link
+* FIXED: correct size for html thumbnail (improves thumbnail html output)
+* FIXED: recent files menu  - it now works
+* FIXED: colour problem with icon view scrollbar
+* FIXED: several small bugs and problems
+
+
+0.7.0-2
+* small compilation bugfix, changing the scope of red_xpm within kalbumview.cpp
+* changed file permissions, and deleted several unnecessary files
+
+
+0.7.0
+* initial release
+

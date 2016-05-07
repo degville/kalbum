@@ -1,0 +1,595 @@
+# KDE tags expanded automatically by am_edit - $Revision: 1.1.1.1 $ 
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+####### kdevelop will overwrite this part!!! (begin)##########
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+#>- 
+bindir = @bindir@
+#>+ 3
+DEPDIR = .deps
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ../../../..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+build_alias = @build_alias@
+build_triplet = @build@
+host_alias = @host_alias@
+host_triplet = @host@
+target_alias = @target_alias@
+target_triplet = @target@
+ARTSCCONFIG = @ARTSCCONFIG@
+AS = @AS@
+AUTODIRS = @AUTODIRS@
+CC = @CC@
+CONF_FILES = @CONF_FILES@
+CPP = @CPP@
+CXX = @CXX@
+CXXCPP = @CXXCPP@
+DCOPIDL = @DCOPIDL@
+DCOPIDL2CPP = @DCOPIDL2CPP@
+DCOP_DEPENDENCIES = @DCOP_DEPENDENCIES@
+DLLTOOL = @DLLTOOL@
+DPMSINC = @DPMSINC@
+DPMSLIB = @DPMSLIB@
+EXEEXT = @EXEEXT@
+GCJ = @GCJ@
+GCJFLAGS = @GCJFLAGS@
+GLINC = @GLINC@
+GLLIB = @GLLIB@
+GMSGFMT = @GMSGFMT@
+IDL = @IDL@
+IDL_DEPENDENCIES = @IDL_DEPENDENCIES@
+JAR = @JAR@
+JAVAC = @JAVAC@
+JAVAH = @JAVAH@
+JVMLIBS = @JVMLIBS@
+KDECONFIG = @KDECONFIG@
+KDE_CXXFLAGS = @KDE_CXXFLAGS@
+KDE_EXTRA_RPATH = @KDE_EXTRA_RPATH@
+KDE_INCLUDES = @KDE_INCLUDES@
+KDE_LDFLAGS = @KDE_LDFLAGS@
+KDE_MT_LDFLAGS = @KDE_MT_LDFLAGS@
+KDE_MT_LIBS = @KDE_MT_LIBS@
+KDE_PLUGIN = @KDE_PLUGIN@
+KDE_RPATH = @KDE_RPATH@
+KDE_USE_CLOSURE_FALSE = @KDE_USE_CLOSURE_FALSE@
+KDE_USE_CLOSURE_TRUE = @KDE_USE_CLOSURE_TRUE@
+KDE_USE_FINAL_FALSE = @KDE_USE_FINAL_FALSE@
+KDE_USE_FINAL_TRUE = @KDE_USE_FINAL_TRUE@
+KDE_XSL_STYLESHEET = @KDE_XSL_STYLESHEET@
+LEX = @LEX@
+LEXLIB = @LEXLIB@
+LIBCOMPAT = @LIBCOMPAT@
+LIBCRYPT = @LIBCRYPT@
+LIBDL = @LIBDL@
+LIBGEN = @LIBGEN@
+LIBJPEG = @LIBJPEG@
+LIBMICO = @LIBMICO@
+LIBOBJS = @LIBOBJS@
+LIBPNG = @LIBPNG@
+LIBPTHREAD = @LIBPTHREAD@
+LIBPYTHON = @LIBPYTHON@
+LIBQIMGIO = @LIBQIMGIO@
+LIBRESOLV = @LIBRESOLV@
+LIBSHADOW = @LIBSHADOW@
+LIBSM = @LIBSM@
+LIBSOCKET = @LIBSOCKET@
+LIBTIFF = @LIBTIFF@
+LIBTOOL = @LIBTOOL@
+LIBUCB = @LIBUCB@
+LIBUTIL = @LIBUTIL@
+LIBXINERAMA = @LIBXINERAMA@
+LIBZ = @LIBZ@
+LIB_KAB = @LIB_KAB@
+LIB_KDECORE = @LIB_KDECORE@
+LIB_KDEPRINT = @LIB_KDEPRINT@
+LIB_KDEUI = @LIB_KDEUI@
+LIB_KFILE = @LIB_KFILE@
+LIB_KFM = @LIB_KFM@
+LIB_KHTML = @LIB_KHTML@
+LIB_KIMGIO = @LIB_KIMGIO@
+LIB_KIO = @LIB_KIO@
+LIB_KPARTS = @LIB_KPARTS@
+LIB_KSPELL = @LIB_KSPELL@
+LIB_KSYCOCA = @LIB_KSYCOCA@
+LIB_QPE = @LIB_QPE@
+LIB_QT = @LIB_QT@
+LIB_QTOPIA = @LIB_QTOPIA@
+LIB_SMB = @LIB_SMB@
+LIB_X11 = @LIB_X11@
+LIB_XEXT = @LIB_XEXT@
+LN_S = @LN_S@
+MAKEINFO = @MAKEINFO@
+MCOPIDL = @MCOPIDL@
+MEINPROC = @MEINPROC@
+MICO_INCLUDES = @MICO_INCLUDES@
+MICO_LDFLAGS = @MICO_LDFLAGS@
+MOC = @MOC@
+MSGFMT = @MSGFMT@
+NOOPT_CFLAGS = @NOOPT_CFLAGS@
+NOOPT_CXXFLAGS = @NOOPT_CXXFLAGS@
+NOREPO = @NOREPO@
+OBJDUMP = @OBJDUMP@
+OBJEXT = @OBJEXT@
+PACKAGE = @PACKAGE@
+PAMLIBS = @PAMLIBS@
+PASSWDLIBS = @PASSWDLIBS@
+PYTHONINC = @PYTHONINC@
+PYTHONLIB = @PYTHONLIB@
+PYTHONMODDIR = @PYTHONMODDIR@
+QTE_NORTTI = @QTE_NORTTI@
+QTOPIA_INCLUDES = @QTOPIA_INCLUDES@
+QT_INCLUDES = @QT_INCLUDES@
+QT_LDFLAGS = @QT_LDFLAGS@
+RANLIB = @RANLIB@
+REPO = @REPO@
+SETUIDFLAGS = @SETUIDFLAGS@
+STRIP = @STRIP@
+TOPSUBDIRS = @TOPSUBDIRS@
+UIC = @UIC@
+UIC_TR = @UIC_TR@
+USER_INCLUDES = @USER_INCLUDES@
+USER_LDFLAGS = @USER_LDFLAGS@
+USE_EXCEPTIONS = @USE_EXCEPTIONS@
+USE_RTTI = @USE_RTTI@
+USE_THREADS = @USE_THREADS@
+VERSION = @VERSION@
+WOVERLOADED_VIRTUAL = @WOVERLOADED_VIRTUAL@
+XGETTEXT = @XGETTEXT@
+XPMINC = @XPMINC@
+XPMLIB = @XPMLIB@
+X_EXTRA_LIBS = @X_EXTRA_LIBS@
+X_INCLUDES = @X_INCLUDES@
+X_LDFLAGS = @X_LDFLAGS@
+X_PRE_LIBS = @X_PRE_LIBS@
+all_includes = @all_includes@
+all_libraries = @all_libraries@
+idldir = @idldir@
+jni_includes = @jni_includes@
+kde_appsdir = @kde_appsdir@
+kde_bindir = @kde_bindir@
+kde_confdir = @kde_confdir@
+kde_datadir = @kde_datadir@
+kde_htmldir = @kde_htmldir@
+kde_icondir = @kde_icondir@
+kde_includes = @kde_includes@
+kde_libraries = @kde_libraries@
+kde_libs_htmldir = @kde_libs_htmldir@
+kde_libs_prefix = @kde_libs_prefix@
+kde_locale = @kde_locale@
+kde_mimedir = @kde_mimedir@
+kde_moduledir = @kde_moduledir@
+kde_qtver = @kde_qtver@
+kde_servicesdir = @kde_servicesdir@
+kde_servicetypesdir = @kde_servicetypesdir@
+kde_sounddir = @kde_sounddir@
+kde_styledir = @kde_styledir@
+kde_templatesdir = @kde_templatesdir@
+kde_wallpaperdir = @kde_wallpaperdir@
+kde_widgetdir = @kde_widgetdir@
+micodir = @micodir@
+qt_includes = @qt_includes@
+qt_libraries = @qt_libraries@
+x_includes = @x_includes@
+x_libraries = @x_libraries@
+
+EXTRA_DIST = bg.png blank.png f_bot.png f_b.png f_lb.png f_left.png f_l.png f_lt.png f_rb.png f_r.png f_rt.png f_top.png f_t.png slide01.png t_ou_d.png t_ou_u.png t_pr_d.png t_pr_u.png t_wh_d.png t_wh_u.png npage.png npage_ro.png ppage.png ppage_ro.png 
+mkinstalldirs = $(SHELL) $(top_srcdir)/admin/mkinstalldirs
+CONFIG_HEADER = ../../../../config.h
+CONFIG_CLEAN_FILES = 
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = gtar
+GZIP_ENV = --best
+#>- all: all-redirect
+#>+ 1
+all: docs-am  all-redirect
+.SUFFIXES:
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+#>- 	cd $(top_srcdir) && $(AUTOMAKE) --gnu kalbum/kalbum_html/folder/images/Makefile
+#>+ 2
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu kalbum/kalbum_html/folder/images/Makefile
+	cd $(top_srcdir) && perl admin/am_edit kalbum/kalbum_html/folder/images/Makefile.in
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status $(BUILT_SOURCES)
+	cd $(top_builddir) \
+	&& CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+tags: TAGS
+TAGS:
+
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = kalbum/kalbum_html/folder/images
+
+distdir: $(DISTFILES)
+	here=`cd $(top_builddir) && pwd`; \
+	top_distdir=`cd $(top_distdir) && pwd`; \
+	distdir=`cd $(distdir) && pwd`; \
+	cd $(top_srcdir) \
+	&& $(AUTOMAKE) --include-deps --build-dir=$$here --srcdir-name=$(top_srcdir) --output-dir=$$top_distdir --gnu kalbum/kalbum_html/folder/images/Makefile
+	@for file in $(DISTFILES); do \
+	d=$(srcdir); \
+	if test -d $$d/$$file; then \
+	cp -pr $$d/$$file $(distdir)/$$file; \
+	else \
+	test -f $(distdir)/$$file \
+	|| ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	|| cp -p $$d/$$file $(distdir)/$$file || :; \
+	fi; \
+	done
+info-am:
+info: info-am
+dvi-am:
+dvi: dvi-am
+check-am: all-am
+check: check-am
+installcheck-am:
+installcheck: installcheck-am
+install-exec-am:
+install-exec: install-exec-am
+
+install-data-am: install-data-local
+install-data: install-data-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-am
+uninstall-am: uninstall-local
+uninstall: uninstall-am
+all-am: Makefile
+all-redirect: all-am
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs:
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-generic
+
+mostlyclean: mostlyclean-am
+
+clean-am:  clean-generic mostlyclean-am
+
+#>- clean: clean-am
+#>+ 1
+clean: kde-rpo-clean  clean-am
+
+distclean-am:  distclean-generic clean-am
+	-rm -f libtool
+
+distclean: distclean-am
+
+maintainer-clean-am:  maintainer-clean-generic distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-am
+
+.PHONY: tags distdir info-am info dvi-am dvi check check-am \
+	installcheck-am installcheck install-exec-am install-exec \
+	install-data-local install-data-am install-data install-am install \
+	uninstall-local uninstall-am uninstall all-redirect all-am all \
+	installdirs mostlyclean-generic distclean-generic clean-generic \
+	maintainer-clean-generic clean mostlyclean distclean maintainer-clean
+
+
+install-data-local:
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/bg.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/bg.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/bg.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/bg.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/blank.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/blank.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/blank.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/blank.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_bot.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_bot.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_bot.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_bot.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_b.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_b.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_b.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_b.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_lb.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lb.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_lb.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lb.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_left.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_left.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_left.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_left.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_l.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_l.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_l.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_l.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_lt.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lt.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_lt.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lt.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_rb.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rb.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_rb.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rb.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_r.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_r.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_r.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_r.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_rt.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rt.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_rt.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rt.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_top.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_top.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_top.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_top.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/f_t.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_t.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/f_t.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_t.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/slide01.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/slide01.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/slide01.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/slide01.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/t_ou_d.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_d.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/t_ou_d.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_d.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/t_ou_u.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_u.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/t_ou_u.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_u.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/t_pr_d.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_d.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/t_pr_d.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_d.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/t_pr_u.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_u.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/t_pr_u.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_u.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/t_wh_d.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_d.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/t_wh_d.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_d.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/t_wh_u.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_u.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/t_wh_u.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_u.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/npage.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/npage.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/npage_ro.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage_ro.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/npage_ro.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage_ro.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/ppage.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/ppage.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage.png
+#>- 	$(mkinstalldirs) $(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/
+#>- 	$(INSTALL_DATA) $(srcdir)/ppage_ro.png $(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage_ro.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/ppage_ro.png $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage_ro.png
+
+uninstall-local:
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/bg.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/bg.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/blank.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/blank.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_bot.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_bot.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_b.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_b.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lb.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lb.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_left.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_left.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_l.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_l.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lt.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_lt.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rb.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rb.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_r.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_r.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rt.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_rt.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_top.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_top.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_t.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/f_t.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/slide01.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/slide01.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_d.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_d.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_u.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_ou_u.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_d.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_d.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_u.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_pr_u.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_d.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_d.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_u.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/t_wh_u.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage_ro.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/npage_ro.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage.png
+#>- 	-rm -f $(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage_ro.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_datadir)/kalbum/data/kalbum_html/folder/images/ppage_ro.png
+
+####### kdevelop will overwrite this part!!! (end)############
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:
+
+#>+ 2
+docs-am:
+
+#>+ 5
+force-reedit:
+		cd $(top_srcdir) && $(AUTOMAKE) --gnu kalbum/kalbum_html/folder/images/Makefile
+	cd $(top_srcdir) && perl admin/am_edit kalbum/kalbum_html/folder/images/Makefile.in
+
+
+#>+ 2
+final:
+	$(MAKE) all-am
+#>+ 2
+final-install:
+	$(MAKE) install-am
+#>+ 2
+no-final:
+	$(MAKE) all-am
+#>+ 2
+no-final-install:
+	$(MAKE) install-am
+#>+ 3
+cvs-clean:
+	$(MAKE) -f $(top_srcdir)/admin/Makefile.common cvs-clean
+
+#>+ 3
+kde-rpo-clean:
+	-rm -f *.rpo
